@@ -42,14 +42,16 @@ AEM uses lucene as the default search and by default searching on synonyms, stem
    fcis,customer information services,customer services
    ```
 2. Choose AEM > Assets > Select search bar. Enter the below:
-   Search term: **peanuts** - Should see asset1.jpg
-   Search term: **treenuts** - Should see asset1.jpg
-   Search term: **teach** - Should see asset1.jpg
-   Search term: **teaches** - Should see asset1.jpg
-   Search term: **teaching** - Should see asset1.jpg
-   Search term: **tree** - Should see asset1.jpg
-   Search term: **house** - Should see asset1.jpg
-   Search term: **tree house** - Should see asset1.jpg
-   Search term: **tree houses** - Should see asset1.jpg
-   Search term (with double-quotes): **"tree house"** - Should see asset1.jpg
-   Search term (with double-quotes): **"tree houses"** - Should see asset1.jpg
+   ```
+   Search term: peanuts - Should see asset1.jpg
+   Search term: treenuts - Should see asset1.jpg
+   Search term: teach - Should see asset1.jpg
+   Search term: teaches - Should see asset1.jpg
+   Search term: teaching - Should see asset1.jpg
+   Search term: tree - Should see asset1.jpg
+   Search term: house - Should see asset1.jpg
+   Search term: tree house - Should see asset1.jpg
+   Search term: tree houses - Should see asset1.jpg
+   Search term (with double-quotes): "tree house" - Should see asset1.jpg
+   Search term (with double-quotes): "tree houses" - Should see asset1.jpg
+   ```
