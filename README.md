@@ -8,6 +8,10 @@ AEM uses lucene as the default search and by default searching on synonyms, stem
 2. Stemming (e.g: teach, teaches, teaching, teached) - is the process of reducing inflected (or sometimes derived) words to their word stem, base or root form. 
 3. Multi words (e.g: tree house, covered bridge) - enabling to search on both words, or part of the words.
 
+## Pre-requisite
+1. Either download the package file (mybrand-test.zip) and upload to http://localhost:4502/crx/packmgr/index.jsp , OR
+2. Download the source files, make necessary changes and zip them to create a package
+
 ## Step-by-step guide
 1. Upload package
    Use the attached package (mybrand-test.zip) to AEM using Package Manager. This will add nodes to "/oak:index/mybrand"
