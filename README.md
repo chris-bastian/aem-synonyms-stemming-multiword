@@ -10,7 +10,7 @@ AEM uses lucene as the default search and by default searching on synonyms, stem
 
 ## Step-by-step guide
 1. Upload package
-   Use the attached package to AEM using Package Manager. This will add nodes to "/oak:index/mybrand"
+   Use the attached package (mybrand-test.zip) to AEM using Package Manager. This will add nodes to "/oak:index/mybrand"
 2. Check mybrand
    Open http://localhost:4502/crx/de/index.jsp#/oak%3Aindex and check "mybrand" is added to crx
    This package contains the following:
